@@ -1,0 +1,363 @@
+{
+  "prereg_version": "wp6-batch3-1",
+  "date": "2026-10-16T05:19:22.890653+00:00",
+  "wp6_task": "tasks/WP6_sem_board.md",
+  "freeze_manifest": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/wp6/freeze_manifest.md",
+  "frozen_root": "/home/xdu/frozen/wp6",
+  "designs": {
+    "P0": {
+      "arch": "p1",
+      "frozen_dir": "P1_WP4R2",
+      "golden_model": "pfft_exchange",
+      "ecc_stages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "tmr_stages": [
+        8,
+        9,
+        10
+      ],
+      "bit_sha": "53735c3a40e044b55bd41aa57f2b228bbfeb58c34be6b8c328e6457ba1c47707",
+      "ebd_sha": "8ec62632dd5a4691508471dde09d4c22437d5ce38d1712e2dbf7489c20821c86",
+      "ll_sha": "ad91c92996b1a9c8a5cb925dc722a987667a058ec5125d2d9ad4e7133964b0bf",
+      "dcp_sha": "2d46a731448069ac1c2d2459ea602bfd9e8898f791266d28f6b190a29a888b65"
+    },
+    "P1": {
+      "arch": "p2",
+      "frozen_dir": "P2_WP4R2",
+      "golden_model": "pfft_no_exchange",
+      "ecc_stages": [],
+      "tmr_stages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "bit_sha": "9cb4a3ccb18d9ff7dd573df62aa293f62947b9f0e73f7292837ce95aeac45848",
+      "ebd_sha": "f412b5617091e0f290876984f549cddf58dfa3f0378554d0ebe7cbf4c19f998a",
+      "ll_sha": "090e90887bf54827690f03699853d6da480409567b17d4e5e88db0f5263da9ff",
+      "dcp_sha": "a38b693c1c27d62dc0dc797d9d43565894201e9c3203da8d3ac580aed5ee004b"
+    },
+    "S0": {
+      "arch": "s3",
+      "frozen_dir": "S3_WP4R2",
+      "golden_model": "subfft",
+      "ecc_stages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "tmr_stages": [
+        8,
+        9,
+        10
+      ],
+      "bit_sha": "c970ff7881186f0f21578d791f6d965790f1cc4d09221637f363a70a62e858fe",
+      "ebd_sha": "3d709886dfe3378b750fecd438ca64713b7a09a705c7f7ffe9b40118e7bbe72b",
+      "ll_sha": "dfe5a3da142d8abe98f84c8fb3145c807fe96359c96490ce36f76d64ce8a9a7b",
+      "dcp_sha": "a60b3d11d56d561789d5a8640f8e9efdf08315816cfb14aa871761b4d2785c64"
+    },
+    "S1": {
+      "arch": "s2",
+      "frozen_dir": "S2_WP4R2",
+      "golden_model": "subfft",
+      "ecc_stages": [],
+      "tmr_stages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "bit_sha": "1cb7c6591e6539e7e3631bba06efa8eadd7731c5293b7a047591d2b18309e818",
+      "ebd_sha": "6a356236cebf529ea39641857cd489058ce761cbd4b20b19a20d4f4d35cd5da4",
+      "ll_sha": "d803d3fb4cb23ce97a945a5329f7de74a8c65acd4b365ae1212d643c32bf26ce",
+      "dcp_sha": "0984d77c2c5fa7b3445695fed505cabb10ff598813bcf238561eddeba352feb3"
+    }
+  },
+  "frozen_inputs": {
+    "P0": {
+      "frozen_dir": "/home/xdu/frozen/wp6/P1_WP4R2",
+      "bit": "/home/xdu/frozen/wp6/P1_WP4R2/k7_paper_top.bit",
+      "ebd": "/home/xdu/frozen/wp6/P1_WP4R2/k7_paper_top.ebd",
+      "ll": "/home/xdu/frozen/wp6/P1_WP4R2/k7_paper_top.ll",
+      "files_present": {
+        "k7_paper_top_routed.dcp": true,
+        "k7_paper_top.bit": true,
+        "k7_paper_top.ebd": true,
+        "k7_paper_top.ll": true
+      }
+    },
+    "P1": {
+      "frozen_dir": "/home/xdu/frozen/wp6/P2_WP4R2",
+      "bit": "/home/xdu/frozen/wp6/P2_WP4R2/k7_paper_top.bit",
+      "ebd": "/home/xdu/frozen/wp6/P2_WP4R2/k7_paper_top.ebd",
+      "ll": "/home/xdu/frozen/wp6/P2_WP4R2/k7_paper_top.ll",
+      "files_present": {
+        "k7_paper_top_routed.dcp": true,
+        "k7_paper_top.bit": true,
+        "k7_paper_top.ebd": true,
+        "k7_paper_top.ll": true
+      }
+    },
+    "S0": {
+      "frozen_dir": "/home/xdu/frozen/wp6/S3_WP4R2",
+      "bit": "/home/xdu/frozen/wp6/S3_WP4R2/k7_paper_top.bit",
+      "ebd": "/home/xdu/frozen/wp6/S3_WP4R2/k7_paper_top.ebd",
+      "ll": "/home/xdu/frozen/wp6/S3_WP4R2/k7_paper_top.ll",
+      "files_present": {
+        "k7_paper_top_routed.dcp": true,
+        "k7_paper_top.bit": true,
+        "k7_paper_top.ebd": true,
+        "k7_paper_top.ll": true
+      }
+    },
+    "S1": {
+      "frozen_dir": "/home/xdu/frozen/wp6/S2_WP4R2",
+      "bit": "/home/xdu/frozen/wp6/S2_WP4R2/k7_paper_top.bit",
+      "ebd": "/home/xdu/frozen/wp6/S2_WP4R2/k7_paper_top.ebd",
+      "ll": "/home/xdu/frozen/wp6/S2_WP4R2/k7_paper_top.ll",
+      "files_present": {
+        "k7_paper_top_routed.dcp": true,
+        "k7_paper_top.bit": true,
+        "k7_paper_top.ebd": true,
+        "k7_paper_top.ll": true
+      }
+    }
+  },
+  "frame_table": {
+    "version": "v2",
+    "path": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/k7_mod_fft/frame_table_k7_v2.json",
+    "exists": true,
+    "v1_path": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/k7_mod_fft/frame_table_k7.json"
+  },
+  "pool": {
+    "version": "v2",
+    "definition": ".ebd essential bits whose LA falls in a frame-table v2 core-region column; exclude only ECC word 50 and still-dead frames/probes (WP6 3.2); no functional pruning",
+    "storage": "deterministic regeneration only (ebd + frame table v2, both frozen); per-bit list NOT stored in the repo (WP6 3.3 spirit); meta + spot bits in <out>/<design>/pool_v2_meta.json",
+    "path_tpl": "<out>/<design>/pool_v2_meta.json"
+  },
+  "tile_tables": {
+    "P0": {
+      "path": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/wp6/P0/tile_table.json",
+      "exists": false
+    },
+    "P1": {
+      "path": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/wp6/P1/tile_table.json",
+      "exists": false
+    },
+    "S0": {
+      "path": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/wp6/S0/tile_table.json",
+      "exists": false
+    },
+    "S1": {
+      "path": "/home/xdu/JuWade_research/fault_tolerant_SDF_FFT_designs-resubmit-k7/k7/results/wp6/S1/tile_table.json",
+      "exists": false
+    }
+  },
+  "L_freeze": {
+    "path_tpl": "<out>/<design>/L_freeze.json",
+    "requires_flag": "--i-am-sure"
+  },
+  "definitions": {
+    "shot_protocol": "SEM I -> N <lfa> per bit (1 bit singles, 2 bits pairs) -> write 10 rand_full frames -> run -> read output -> read telemetry -> SEM O repair -> verify repair report -> health shot (WP6 2.1); inputs rewritten every shot, so shell reset reload is built in",
+    "result_categories": [
+      {
+        "key": "stuck",
+        "zh": "卡住",
+        "rule": "运行未完成: run_error (stream-engine watchdog ~64 ms)、写入或读出错误、主机超时"
+      },
+      {
+        "key": "noimpact",
+        "zh": "无影响",
+        "rule": "运行完成; 8 帧逐位一致且尾两帧全零; det = cor = unc = 0; err_flags = 0"
+      },
+      {
+        "key": "corrected",
+        "zh": "已纠正",
+        "rule": "运行完成; 输出逐位一致; cor > 0 或 det > 0; unc = 0"
+      },
+      {
+        "key": "flagged",
+        "zh": "标出的错",
+        "rule": "运行完成; 输出不一致; unc > 0"
+      },
+      {
+        "key": "silent",
+        "zh": "静默的错",
+        "rule": "运行完成; 输出不一致; unc = 0 (另记 cor/det; cor > 0 的列为误纠子行)"
+      },
+      {
+        "key": "flagged_but_clean",
+        "zh": "标出但输出完好",
+        "rule": "运行完成; 输出一致; unc > 0 (罕见, 单列)"
+      }
+    ],
+    "tmr_silent_rule": "标出只认 unc。三模级的不一致标志对每个被屏蔽的单故障都会拉起，系统无法据它区分一份副本坏与两份副本坏，所以三模输出出错一律记静默，不记标出；正文写明。",
+    "tmr_silent_rule_key": "若输出不一致且 unc > 0，但目标位归属三模级，类别记 silent 并记 tmr_override = true",
+    "library_L": "单发预筛里类别为已纠正、err_flags = 0、且 SEM 修复报告确认该位被纠正的位 (WP6 2.3)",
+    "stage": "遥测 last_stage + 1",
+    "lane": "遥测 last_loc (0-3 功能路、4-5 校验路), 仅编码级",
+    "replica": "三模级只能由瓦片归属给出; 归属不唯一记 未定",
+    "stage_conflict_policy": "遥测级与瓦片归属级不一致时保留该位、单独标出 (stage_conflict = true); 遥测只留最后一个事件的级与路；一发若在几级都有事件，以瓦片归属复核，复核不了记 多级。遥测无法单独检出多级事件（只有 last_*），检出依赖瓦片归属复核。",
+    "position_categories": [
+      "受算术码保护的数据通路",
+      "三模级",
+      "共享控制与指数生成",
+      "译码器与表决器",
+      "级间寄存器",
+      "混合",
+      "外壳相关"
+    ],
+    "position_category_note": "按瓦片归属 (WP6 2.4)；归属不唯一或跨类记 混合；3.3 特殊位置(tile_x49 列、P1 的 INT_R_X51Y156 / INT_R_X53Y152、X0Y4 tile_x23) 单列。",
+    "f_bar": {
+      "text": "f̄ = Σ_{编码级 s} (n_s/n)²·(1−Σ_l q_{s,l}²) + Σ_{三模级 s} (n_s/n)²·(1−Σ_r p_{s,r}²)；n = |L|，n_s 为第 s 级位数，q_{s,l} 为编码级第 l 路占比，p_{s,r} 为三模级第 r 副本占比（未定的按 1/3）。假设：同一恢复边界内不同路/不同副本的两错必失效，其余都不失效 (WP6 2.5)",
+      "assumption": "同一恢复边界内不同路/不同副本的两错必失效，其余都不失效"
+    }
+  },
+  "sample_sizes": {
+    "singles": 5000,
+    "pilot_first": 300,
+    "standby_spare": "ceil(5% of singles), pre-drawn, consumed in order for voided shots; sampling order of the primary list never changes",
+    "repeat": {
+      "from_L": 50,
+      "from_other_affected": 50
+    },
+    "pairs_natural": 500,
+    "pairs_stress": {
+      "P0": {
+        "ecc": 100,
+        "tmr": 50
+      },
+      "S0": {
+        "ecc": 100,
+        "tmr": 50
+      },
+      "P1": {
+        "tmr": 150
+      },
+      "S1": {
+        "tmr": 150
+      }
+    },
+    "pairs_control": {
+      "P0": {
+        "ecc": 30,
+        "tmr": 20
+      },
+      "S0": {
+        "ecc": 30,
+        "tmr": 20
+      },
+      "P1": {
+        "tmr": 50
+      },
+      "S1": {
+        "tmr": 50
+      }
+    }
+  },
+  "seeds": {
+    "singles": 202610161,
+    "pairs_natural": 202610162,
+    "pairs_stress": 202610163,
+    "pairs_control": 202610164,
+    "repeat": 202610165,
+    "per_design_derivation": "seed(design) = base_seed + 104729 * design_index (P0=0, P1=1, S0=2, S1=3)"
+  },
+  "sampling": {
+    "singles": "uniform without replacement from pool v2; primary 5000 + standby ceil(5%) drawn in one pass",
+    "pairs_natural": "uniform over unordered distinct-bit pairs of L (i, j i.i.d. uniform, order normalised), rejection-sampling out same-frame pairs (same la); skipped draws counted",
+    "pairs_stress": "uniform (rejection) over qualified pairs: same stage AND (ECC stage: different last_loc) / (TMR stage: different replica, unique-attribution bits only); same-frame pairs rejected; shortfall: draw all available, report deficit, never relax criteria",
+    "pairs_control": "same as stress but same lane (ECC) / same replica (TMR, unique attribution)"
+  },
+  "recovery_gradient": [
+    "1. 每发后 SEM O，等修复报告；核对帧/字/位与注入位一致（配对两位都要出现）",
+    "2. 健康发: 逐位一致且计数全 0 才继续",
+    "3. 不通过: 再 SEM O、再健康发 (recovery_path = repeat_O)",
+    "4. 仍不通过或 SEM 报不可纠 (FC 40): 核对冻结位流 SHA-256 后用同一冻结位流重编程 (vivado program_k7_volatile.tcl)，SEM 状态，连续 3 发健康发 (recovery_path = reprogram)；该发自己的类别按原判定不变",
+    "5. 重编程后仍不通过: 停整批 (CampaignStop)",
+    "6. 外壳一旦复位 (上电、时钟失锁、主机重连): 重新初始化，连续 3 发健康发全部无影响后再继续，记录在案 (shell_resets 记录)"
+  ],
+  "void_rule": "主机通信超时导致的单发作废 (category = invalid)，记 作废，用预登记里预抽的备用位依次补，不改抽样顺序",
+  "pilot_gates": {
+    "when": "after the first 300 shots of a full-size singles run",
+    "gates": [
+      "恢复梯度从未走到 重编程仍失败 (CampaignStop)",
+      "健康发失败率 < 1%",
+      "已纠正占比按试运行比例外推到 5000 发 >= 100 位 L",
+      "单发平均耗时写进报告"
+    ],
+    "on_fail": "abort this design with a pilot report",
+    "note": "skipped for small configs (pilot < 300)"
+  },
+  "stop_conditions": [
+    "恢复梯度第 5 步",
+    "试运行门槛不满足",
+    "可重复性抽检不一致超过 5 发",
+    "某设计的 L 少于 100 位",
+    "某设计加压配对合格位对总数少于 50 (分项缺额只报告、不停)"
+  ],
+  "jsonl_record_fields": [
+    "design",
+    "bitstream_sha",
+    "frame_table_version",
+    "pool_version",
+    "seed",
+    "index",
+    "kind",
+    "subkind",
+    "target (la/wd/bt/lfa_hex/column/row/tile)",
+    "category",
+    "tmr_stage",
+    "tmr_override",
+    "telemetry (full row)",
+    "err_flags",
+    "output_diff_summary",
+    "sem (I/N/O replies + repair report parse + repair_match)",
+    "health",
+    "recovery_path",
+    "shell_resets",
+    "wall_s",
+    "t",
+    "void",
+    "notes"
+  ],
+  "tile_table_schema": {
+    "note": "WP6 3.3 output, written by scripts/k7_mod/wp6_tile_table.py (Vivado query); absence must be tolerated (category/replica resolve to 未定 at analysis time)",
+    "format": "{\"tiles\": {tile_name: {\"attrib\": [[category, stage|null, lane_or_replica|null], ...], \"special\": [...]}}}",
+    "tile_name": "<frame-table column tile_kind>_X<tile_x>Y<tile_y>; row = word//2 (word<50), (word-1)//2 (word>50), word 50 = ECC; tile_y = 50*region_y + row (verified against the .ll by row_check.json)",
+    "categories": {
+      "protected_datapath": "受算术码保护的数据通路",
+      "tmr_stage": "三模级",
+      "shared_control": "共享控制与指数生成",
+      "decoder_voter": "译码器与表决器",
+      "stage_boundary": "级间寄存器",
+      "mixed": "混合",
+      "unmapped": "未定",
+      "shell_related": "外壳相关"
+    },
+    "unique_rule": "瓦片 attrib 集合唯一（单条）时归属唯一；多条记 未定/混合 (WP6 2.3)"
+  }
+}

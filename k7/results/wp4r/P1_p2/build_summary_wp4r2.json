@@ -1,0 +1,105 @@
+{
+  "project": "K7_PAPER_P2_WP4R2",
+  "wns": 0.319751,
+  "whs": 0.048864,
+  "overall": {
+    "total_lut": 30338,
+    "logic_lut": 26392,
+    "lutram": 3946,
+    "ff": 22403,
+    "ramb36": 44,
+    "ramb18": 6,
+    "dsp": 337
+  },
+  "kernel": {
+    "total_lut": 24080,
+    "logic_lut": 20408,
+    "lutram": 3672,
+    "ff": 16795,
+    "ramb36": 0,
+    "ramb18": 0,
+    "dsp": 336
+  },
+  "stages": {
+    "1": {
+      "total_lut": 3470,
+      "logic_lut": 2378,
+      "lutram": 1092,
+      "ff": 3013,
+      "dsp": 0
+    },
+    "2": {
+      "total_lut": 2348,
+      "logic_lut": 1736,
+      "lutram": 612,
+      "ff": 1045,
+      "dsp": 48
+    },
+    "3": {
+      "total_lut": 2175,
+      "logic_lut": 1851,
+      "lutram": 324,
+      "ff": 1132,
+      "dsp": 48
+    },
+    "4": {
+      "total_lut": 2300,
+      "logic_lut": 1964,
+      "lutram": 336,
+      "ff": 1219,
+      "dsp": 48
+    },
+    "5": {
+      "total_lut": 2397,
+      "logic_lut": 2037,
+      "lutram": 360,
+      "ff": 1261,
+      "dsp": 48
+    },
+    "6": {
+      "total_lut": 2544,
+      "logic_lut": 2172,
+      "lutram": 372,
+      "ff": 1303,
+      "dsp": 48
+    },
+    "7": {
+      "total_lut": 2928,
+      "logic_lut": 2352,
+      "lutram": 576,
+      "ff": 1345,
+      "dsp": 48
+    },
+    "8": {
+      "total_lut": 2652,
+      "logic_lut": 2652,
+      "lutram": 0,
+      "ff": 2974,
+      "dsp": 24
+    },
+    "9": {
+      "total_lut": 2246,
+      "logic_lut": 2246,
+      "lutram": 0,
+      "ff": 2170,
+      "dsp": 24
+    },
+    "10": {
+      "total_lut": 1009,
+      "logic_lut": 1009,
+      "lutram": 0,
+      "ff": 1333,
+      "dsp": 0
+    }
+  },
+  "rom_instance_count": 30,
+  "rom_bram_total": 0,
+  "pool_criterion_7": true,
+  "pool_size": 5365921,
+  "essential_bits": 6916753,
+  "sha256": {
+    "bit": "9cb4a3ccb18d9ff7dd573df62aa293f62947b9f0e73f7292837ce95aeac45848",
+    "ebd": "f412b5617091e0f290876984f549cddf58dfa3f0378554d0ebe7cbf4c19f998a",
+    "ll": "090e90887bf54827690f03699853d6da480409567b17d4e5e88db0f5263da9ff"
+  }
+}
