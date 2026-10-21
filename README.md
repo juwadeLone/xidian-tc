@@ -79,12 +79,12 @@ injection; see `k7/results/wp6/prereg.json`, `prereg_batch4.json` and
 
 | File | Supports |
 |---|---|
-| `wp6/MAIN_TABLES.md` | Table 2 (injection outcomes) and per-shot counts in the single-shot section |
+| `wp6/MAIN_TABLES.md` | Table II (injection outcomes) and per-shot counts in the single-shot section |
 | `wp6/S27_tns_tables.md` | Mechanism classification of single-shot failures (454 -> 432 + 18 + 4) |
 | `wp6/prereg.json`, `wp6/prereg_batch4.json`, `wp6/prereg_addendum_1.md` | Sample sizes, seeds and classification fixed before injection |
-| `wp4r/<design>/functional_breakdown_wp4r2.md` (P0_p1, P1_p2, S0_s3, S1_s2) | Fig. 13 (per-function resource breakdown) |
-| `wp4r/<design>/worst_path_wp4r2.md` | Slack column of Table 3 |
-| `wp4r/<design>/build_summary_wp4r2.json` | Table 3 kernel resource totals (`kernel` section) |
+| `wp4r/<design>/functional_breakdown_wp4r2.md` (P0_p1, P1_p2, S0_s3, S1_s2) | Per-function Logic LUT quoted in the resource-cost section (encoders, syndromes, decoders and SECDED) |
+| `wp4r/<design>/worst_path_wp4r2.md` | Slack column of Table III |
+| `wp4r/<design>/build_summary_wp4r2.json` | Table III kernel resource totals (`kernel` section) |
 | `wp10/REPORT.md`, `wp10/S1h_s2hr/functional_breakdown_wp10b.md`, `wp10/P1h_p2hr/functional_breakdown_wp10b.md` | S1h/P1h resource results |
 | `wp7b/REPORT.md` | Dynamic power estimates (not reported in the paper) |
 
